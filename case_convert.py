@@ -9,3 +9,7 @@ def case_convert(string):
       else:
         new_string+=x.lower()
     return new_string
+
+#Here is a more elegant way:
+def change_lower_upper(x):
+           return x.swapcase()
